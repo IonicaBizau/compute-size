@@ -30,6 +30,7 @@ console.log(computeSize({
     },
     preserve_aspect_ratio: false
 }));
+// { width: 10, height: 80 }
 
 console.log(computeSize({
     // Wanted size
@@ -47,6 +48,7 @@ console.log(computeSize({
       , height: 200
     }
 }));
+// { width: 10, height: 50 }
 
 console.log(computeSize({
     // Wanted size
@@ -60,6 +62,7 @@ console.log(computeSize({
       , height: 400
     }
 }));
+// { width: 80, height: 400 }
 ```
 
 ## Documentation
