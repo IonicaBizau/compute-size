@@ -22,7 +22,13 @@ tester.describe("compute-size", test => {
         }, {
             width: 90
           , height: 100
-        }, { preserve_aspect_ratio: false })).toEqual({
+        }, {
+            preserve_aspect_ratio: false
+          , screen_size: {
+                width: 100
+              , height: 100
+            }
+        })).toEqual({
             width: 90
           , height: 90
         });
@@ -73,6 +79,53 @@ tester.describe("compute-size", test => {
             }
         })).toEqual({
             width: 9
+          , height: 10
+        });
+    });
+    test.should("handle the fit_screen options screen size", () => {
+        test.expect(computeSize({
+            width: 100
+        }, {
+            width: 90
+          , height: 100
+        }, {
+            screen_size: {
+                width: 10
+              , height: 10
+            }
+        })).toEqual({
+            width: 9
+          , height: 10
+        });
+        test.expect(computeSize({
+            width: 100
+        }, {
+            width: 90
+          , height: 90
+        }, {
+            screen_size: {
+                width: 10
+              , height: 300
+            }
+        })).toEqual({
+            width: 10
+          , height: 10
+        });
+    });
+    test.should("resize to full height when passing both", () => {
+        test.expect(computeSize({
+            width: 100
+          , height: 120
+        }, {
+            width: 10
+          , height: 100
+        }, {
+            screen_size: {
+                width: 10
+              , height: 10
+            }
+        })).toEqual({
+            width: 1
           , height: 10
         });
     });
