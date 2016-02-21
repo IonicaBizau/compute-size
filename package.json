@@ -1,6 +1,6 @@
 {
   "name": "compute-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper tool for resizing the things.",
   "main": "lib/index.js",
   "directories": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "fixed-or-percent": "^1.0.0",
+    "map-o": "^2.0.1",
     "ul": "^5.2.1"
   },
   "devDependencies": {
