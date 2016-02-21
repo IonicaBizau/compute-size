@@ -4,7 +4,8 @@
   "description": "Helper tool for resizing the things.",
   "main": "lib/index.js",
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
   "dependencies": {
     "fixed-or-percent": "^1.0.0",
@@ -17,5 +18,18 @@
     "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/compute-size.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/compute-size/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/compute-size#readme",
+  "keywords": [
+    "compute",
+    "size",
+    "object"
+  ]
 }
