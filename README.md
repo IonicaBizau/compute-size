@@ -1,14 +1,18 @@
+
 # compute-size [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/compute-size.svg)](https://www.npmjs.com/package/compute-size) [![Downloads](https://img.shields.io/npm/dt/compute-size.svg)](https://www.npmjs.com/package/compute-size) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Helper tool for resizing the things.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save compute-size
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const computeSize = require("compute-size");
@@ -65,7 +69,8 @@ console.log(computeSize({
 // { width: 80, height: 400 }
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `computeSize(wantedSize, realSize, options)`
 Computes a wanted size based on the object, pixel and screen sizes.
@@ -92,13 +97,18 @@ Computes a wanted size based on the object, pixel and screen sizes.
  - `width` (Number): The computed width.
  - `height` (Number): The computed height.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii)—A Node.JS module that converts images to ASCII art.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
