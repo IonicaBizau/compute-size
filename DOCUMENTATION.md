@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Computes a wanted size based on the object, pixel and screen sizes.
 
 #### Params
+
 - **Object** `wantedSize`: An object containing the following fields:
  - `width` (Number): The wanted width.
  - `height` (Number): The wanted height.
