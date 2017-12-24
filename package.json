@@ -1,6 +1,6 @@
 {
   "name": "compute-size",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Helper tool for resizing the things.",
   "main": "lib/index.js",
   "directories": {
