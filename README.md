@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save compute-size
+# Using npm
+npm install --save compute-size
+
+# Using yarn
+yarn add compute-size
 ```
 
 
