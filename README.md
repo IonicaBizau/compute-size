@@ -214,7 +214,7 @@ However, if you get some profit from this or just want to encourage me to contin
     ![](https://i.imgur.com/z6OQI95.png)
 
 
-Thanks! :heart:
+Thanks You! :heart:
 
 
 
