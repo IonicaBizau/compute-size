@@ -50,7 +50,7 @@
 ## :cloud: Installation
 
 ```sh
-# Using npm
+# Using npm(Node Package Manager)
 npm install --save compute-size
 
 # Using yarn
