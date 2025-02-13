@@ -1,6 +1,6 @@
 {
   "name": "compute-size",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Helper tool for resizing the things.",
   "main": "lib/index.js",
   "directories": {
@@ -44,6 +44,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
